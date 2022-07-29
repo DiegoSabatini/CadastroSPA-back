@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "17d4f6af-14c9-470e-a95b-01b940572e23": {
+      "ProjectGuid": "17d4f6af-14c9-470e-a95b-01b940572e23",
+      "DisplayName": "CadastroSPA.Core",
+      "ColorIndex": 0
+    },
+    "a1fbcfbf-317a-4f12-9334-fcb5b8bca374": {
+      "ProjectGuid": "a1fbcfbf-317a-4f12-9334-fcb5b8bca374",
+      "DisplayName": "CadastroSPA.Identidade.API",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

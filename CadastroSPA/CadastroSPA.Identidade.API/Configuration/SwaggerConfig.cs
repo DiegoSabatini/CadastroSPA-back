@@ -10,10 +10,9 @@ namespace CadastroSPA.Identidade.API.Configuration
             {
                 c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "CadastroSPA Identidade API",
-                    Description = "",
-                    Contact = new OpenApiContact() { Name = "Diego Sabatini", Email = "diegosabatiniguimaraes@gmail.com" },
-                    License = new OpenApiLicense() { Name = "", Url = new Uri("") }
+                    Version = "v1",
+                    Title = "CadastroSPA Teste Técnico",
+                    Description = "CadastroSPA API identidade Swagger"
                 });
 
             });

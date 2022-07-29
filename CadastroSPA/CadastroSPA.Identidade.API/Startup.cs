@@ -1,4 +1,6 @@
-﻿namespace CadastroSPA.Identidade.API
+﻿using CadastroSPA.Identidade.API.Configuration;
+
+namespace CadastroSPA.Identidade.API
 {
     public class Startup
     {
