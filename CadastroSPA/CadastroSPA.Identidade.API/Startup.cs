@@ -14,6 +14,8 @@ namespace CadastroSPA.Identidade.API
                 .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
+
+
             if (hostEnvironment.IsDevelopment())
             {
                 builder.AddUserSecrets<Startup>();
@@ -26,6 +28,19 @@ namespace CadastroSPA.Identidade.API
         {
             services.AddIdentityConfiguration(Configuration);
 
+            var origin = Configuration.GetValue<string>("AppSettings:Origin").Split(",");
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                                          builder =>
+                                          {
+                                              builder.WithOrigins(origin)
+                                              .AllowAnyHeader()
+                                              .AllowAnyMethod();
+                                          });
+
+            });
+
             services.AddApiConfiguration();
 
             services.AddSwaggerConfiguration();
@@ -33,6 +48,7 @@ namespace CadastroSPA.Identidade.API
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors();
             app.UseSwaggerConfiguration();
 
             app.UseApiConfiguration(env);

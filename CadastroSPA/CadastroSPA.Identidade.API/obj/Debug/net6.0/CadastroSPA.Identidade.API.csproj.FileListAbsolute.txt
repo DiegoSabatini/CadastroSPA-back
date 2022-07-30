@@ -7,6 +7,7 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Identidade.API.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\ref\CadastroSPA.Identidade.API.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Identidade.API.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Humanizer.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -15,6 +16,7 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -65,6 +67,3 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\ref\CadastroSPA.Identidade.API.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.pdb
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.genruntimeconfig.cache
-C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Humanizer.dll
-C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.csproj.AssemblyReference.cache
