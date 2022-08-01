@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I+8SfS4tzB4WDoM2qKmazJw3ulxIRdg9t+6LGePMiq+jkIXXHpCwYFrjh/6LNd1NF8Y2t+Svhm7mfJfbbg+57Q==",
+  "success": true,
+  "projectFilePath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Application\\CadastroSPA.Cadastro.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
