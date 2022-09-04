@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CadastroSPA.Cadastro.Application.Services.Interface;
 using CadastroSPA.Cadastro.Application.ViewModels;
+using CadastroSPA.Cadastro.Domain.Models;
 using CadastroSPA.Cadastro.Domain.Repository;
 using System;
 using System.Collections.Generic;
@@ -22,9 +23,9 @@ namespace CadastroSPA.Cadastro.Application.Services
         }
 
 
-        public async Task<bool> Adicionar(EscolaridadeViewModel produto)
+        public async Task<bool> Adicionar(EscolaridadeViewModel escolaridadeViewModel)
         {
-            throw new NotImplementedException();
+            return await _escolaridadeRepository.Adicionar(_mapper.Map<Escolaridade>(escolaridadeViewModel));
         }
 
         public void Dispose()

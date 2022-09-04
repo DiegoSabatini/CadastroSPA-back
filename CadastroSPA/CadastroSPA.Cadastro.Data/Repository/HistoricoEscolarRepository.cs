@@ -25,13 +25,13 @@ namespace CadastroSPA.Cadastro.Data.Repository
         public async Task<bool> Adicionar(HistoricoEscolar historicoEscolar)
         {
             _context.HistoricoEscolar.Add(historicoEscolar);
-            await _context.Commit();
+            return await _context.Commit();
         }
 
         public async Task<bool> Atualizar(HistoricoEscolar historicoEscolar)
         {
             _context.HistoricoEscolar.Update(historicoEscolar);
-            await _context.Commit();
+            return await _context.Commit();
         }
 
         public void Dispose()

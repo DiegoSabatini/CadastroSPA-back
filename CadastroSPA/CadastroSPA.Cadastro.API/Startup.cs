@@ -100,7 +100,6 @@ namespace CadastroSPA.Cadastro.API
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseMiddleware<ExceptionMiddleware>();
-            app.UseMvcConfiguration();
             app.UseSwaggerConfiguration();
             app.UseApiConfiguration(env);
         }

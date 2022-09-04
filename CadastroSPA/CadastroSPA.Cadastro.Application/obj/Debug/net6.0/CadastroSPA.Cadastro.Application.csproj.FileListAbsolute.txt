@@ -1,0 +1,16 @@
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.AssemblyInfoInputs.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.AssemblyInfo.cs
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.csproj.CoreCompileInputs.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Cadastro.Application.deps.json
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Cadastro.Application.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\ref\CadastroSPA.Cadastro.Application.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Cadastro.Application.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Cadastro.Domain.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Core.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Cadastro.Domain.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\bin\Debug\net6.0\CadastroSPA.Core.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.csproj.CopyComplete
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\ref\CadastroSPA.Cadastro.Application.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.pdb

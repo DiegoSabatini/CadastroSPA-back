@@ -48,7 +48,7 @@ namespace CadastroSPA.Cadastro.API.Configuration
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v3/swagger.json", "v1");
+                c.SwaggerEndpoint("/swagger/v3/swagger.json", "v3");
             });
             return app;
         }

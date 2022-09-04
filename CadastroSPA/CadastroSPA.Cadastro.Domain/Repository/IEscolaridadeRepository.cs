@@ -12,6 +12,6 @@ namespace CadastroSPA.Cadastro.Domain.Repository
     {
         Task<IEnumerable<Escolaridade>> ObterTodos();
 
-        void Adicionar(Escolaridade escolaridade);
+        Task<bool> Adicionar(Escolaridade escolaridade);
     }
 }

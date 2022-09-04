@@ -15,7 +15,7 @@ namespace CadastroSPA.Cadastro.Application.AutoMapper
         {
             CreateMap<AlunoViewModel, Alunos>();
             CreateMap<EscolaridadeViewModel, Escolaridade>();
-            CreateMap<HistoricoViewModel, HistoricoEscolar>();
+            CreateMap<HistoricoEscolarViewModel, HistoricoEscolar>();
         }
     }
 }

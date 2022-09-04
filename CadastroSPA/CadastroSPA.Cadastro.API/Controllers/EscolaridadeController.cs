@@ -1,4 +1,5 @@
-﻿using CadastroSPA.Cadastro.Application.Services.Interface;
+﻿using AutoMapper;
+using CadastroSPA.Cadastro.Application.Services.Interface;
 using CadastroSPA.Cadastro.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,27 +19,11 @@ namespace CadastroSPA.Cadastro.API.Controllers
         public async Task<ActionResult> Registrar(EscolaridadeViewModel escolaridade)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
+            await _escolaridadeAppService.Adicionar(escolaridade);
 
-            var user = new IdentityUser
-            {
-                UserName = usuarioRegistro.Email,
-                Email = usuarioRegistro.Email,
-                EmailConfirmed = true
-            };
 
-            var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
 
-            if (result.Succeeded)
-            {
-                return CustomResponse(await GerarJwt(usuarioRegistro.Email));
-            }
-
-            foreach (var error in result.Errors)
-            {
-                AdicionarErroProcessamento(error.Description);
-            }
-
-            return CustomResponse();
+            return CustomResponse(escolaridade);
         }
 
     }
