@@ -1,4 +1,4 @@
-﻿using CadastroSPA.Cadastro.Data.Context;
+﻿using CadastroSPA.Cadastro.Data;
 using CadastroSPA.Cadastro.Domain.Models;
 using CadastroSPA.Cadastro.Domain.Repository;
 using CadastroSPA.Core.Data;

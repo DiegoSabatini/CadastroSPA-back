@@ -9,17 +9,12 @@ namespace CadastroSPA.Cadastro.Domain.Models
 {
     public class Escolaridade : Entity
     {
-        public string Descricao { get; private set; }
+        public string Descricao { get; set; }
 
         // EF Relation
-        public ICollection<Alunos> Alunos { get; set; }
+        public Alunos Alunos { get; set; }
+
 
         protected Escolaridade() { }
-
-        public Escolaridade(string descricao)
-        {
-            Descricao = descricao;
-        }
-
     }
 }

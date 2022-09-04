@@ -11,8 +11,8 @@ namespace CadastroSPA.Cadastro.Domain.Repository
     public interface IHistoricoEscolarRepository : IRepository<HistoricoEscolar>
     {
         Task<HistoricoEscolar> ObterPorId(Guid id);
-        void Adicionar(HistoricoEscolar historicoEscolar);
-        void Atualizar(HistoricoEscolar historicoEscolar);
+        Task<bool> Adicionar(HistoricoEscolar historicoEscolar);
+        Task<bool> Atualizar(HistoricoEscolar historicoEscolar);
 
     }
 }

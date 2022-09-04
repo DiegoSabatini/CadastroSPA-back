@@ -23,15 +23,10 @@ namespace CadastroSPA.Cadastro.Data.Mappings
               .IsRequired()
               .HasColumnType("varchar(100)");
 
-
-            builder.Property(c => c.Arquivo)
-              .IsRequired()
-              .HasColumnType("BLOB");
-
-            // 1 : N => HistoricoEscolar : Alunos
-            builder.HasMany(c => c.Alunos)
-                .WithOne(p => p.HistoricoEscolar)
-                .HasForeignKey(p => p.IdHistoricoEscolar);
+            builder
+               .HasOne(p => p.Alunos)
+               .WithOne(p => p.HistoricoEscolar)
+               .HasForeignKey<Alunos>(p => p.IdHistoricoEscolar);
 
             builder.ToTable("HistoricoEscolar");
         }

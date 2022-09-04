@@ -11,5 +11,7 @@ namespace CadastroSPA.Cadastro.Domain.Repository
     public interface IEscolaridadeRepository : IRepository<Escolaridade>
     {
         Task<IEnumerable<Escolaridade>> ObterTodos();
+
+        void Adicionar(Escolaridade escolaridade);
     }
 }

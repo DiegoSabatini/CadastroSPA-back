@@ -8,15 +8,38 @@ namespace CadastroSPA.Cadastro.API.Configuration
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v2", new OpenApiInfo()
+                c.SwaggerDoc("v3", new OpenApiInfo()
                 {
-                    Version = "v2",
+                    Version = "v3",
                     Title = "CadastroSPA Aluno Teste Técnico",
                     Description = "API Cadastro Swagger"
                 });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Insira o token JWT desta maneira: Bearer {seu token}",
+                    Name = "Authorization",
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
 
             });
-
             return services;
         }
 
@@ -25,9 +48,8 @@ namespace CadastroSPA.Cadastro.API.Configuration
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                c.SwaggerEndpoint("/swagger/v3/swagger.json", "v1");
             });
-
             return app;
         }
     }

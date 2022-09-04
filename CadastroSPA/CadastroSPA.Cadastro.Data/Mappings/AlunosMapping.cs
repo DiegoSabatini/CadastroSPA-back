@@ -31,6 +31,8 @@ namespace CadastroSPA.Cadastro.Data.Mappings
              .IsRequired()
              .HasColumnType("DATE");
 
+           
+
             builder.ToTable("Alunos");
         }
     }

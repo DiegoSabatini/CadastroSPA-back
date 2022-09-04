@@ -1,4 +1,4 @@
-﻿using CadastroSPA.Cadastro.Data.Context;
+﻿using CadastroSPA.Cadastro.Data;
 using CadastroSPA.Cadastro.Domain.Models;
 using CadastroSPA.Cadastro.Domain.Repository;
 using CadastroSPA.Core.Data;
@@ -31,6 +31,11 @@ namespace CadastroSPA.Cadastro.Data.Repository
         public void Dispose()
         {
             _context?.Dispose();
+        }
+
+        public void Adicionar(Escolaridade escolaridade)
+        {
+            _context.Escolaridade.Add(escolaridade);
         }
     }
 }

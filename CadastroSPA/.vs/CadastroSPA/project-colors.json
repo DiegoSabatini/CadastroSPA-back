@@ -15,7 +15,32 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Arquivos Diversos",
       "ColorIndex": -1
+    },
+    "4c20af43-bf3c-4638-a551-8139766688c0": {
+      "ProjectGuid": "4c20af43-bf3c-4638-a551-8139766688c0",
+      "DisplayName": "CadastroSPA.Cadastro.Application",
+      "ColorIndex": 2
+    },
+    "91fb377a-3fc1-4087-b7af-eccf4973a81a": {
+      "ProjectGuid": "91fb377a-3fc1-4087-b7af-eccf4973a81a",
+      "DisplayName": "CadastroSPA.Cadastro.Domain",
+      "ColorIndex": 3
+    },
+    "013caf0f-df4b-4cd1-9a34-5a50a74e677d": {
+      "ProjectGuid": "013caf0f-df4b-4cd1-9a34-5a50a74e677d",
+      "DisplayName": "CadastroSPA.Cadastro.Data",
+      "ColorIndex": 4
+    },
+    "8fb0e160-4566-42f8-a115-0e7d3d0e803b": {
+      "ProjectGuid": "8fb0e160-4566-42f8-a115-0e7d3d0e803b",
+      "DisplayName": "CadastroSPA.Cadastro.API",
+      "ColorIndex": 5
+    },
+    "78ee0151-3809-4ca6-94c5-466dd03f4cd7": {
+      "ProjectGuid": "78ee0151-3809-4ca6-94c5-466dd03f4cd7",
+      "DisplayName": "CadastroSPA.Cadastro.Infra.CrossCutting.IoC",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 7
 }

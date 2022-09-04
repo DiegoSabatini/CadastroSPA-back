@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore;
+
 namespace CadastroSPA.Cadastro.API
 {
     public class Program

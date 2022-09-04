@@ -10,12 +10,12 @@ namespace CadastroSPA.Cadastro.Application.Services
 {
     public class AlunoAppService : IAlunoAppService
     {
-        public void Adicionar(AlunoViewModel produto)
+        public async Task<bool> Adicionar(AlunoViewModel produto)
         {
             throw new NotImplementedException();
         }
 
-        public void Atualizar(AlunoViewModel produto)
+        public async Task<bool> Atualizar(AlunoViewModel produto)
         {
             throw new NotImplementedException();
         }

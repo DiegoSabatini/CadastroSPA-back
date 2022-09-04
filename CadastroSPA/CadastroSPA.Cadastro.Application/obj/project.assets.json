@@ -22,6 +22,29 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "CadastroSPA.Cadastro.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CadastroSPA.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CadastroSPA.Cadastro.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CadastroSPA.Cadastro.Domain.dll": {}
+        }
+      },
+      "CadastroSPA.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CadastroSPA.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CadastroSPA.Core.dll": {}
+        }
       }
     }
   },
@@ -109,11 +132,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CadastroSPA.Cadastro.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CadastroSPA.Cadastro.Domain/CadastroSPA.Cadastro.Domain.csproj",
+      "msbuildProject": "../CadastroSPA.Cadastro.Domain/CadastroSPA.Cadastro.Domain.csproj"
+    },
+    "CadastroSPA.Core/1.0.0": {
+      "type": "project",
+      "path": "../CadastroSPA.Core/CadastroSPA.Core.csproj",
+      "msbuildProject": "../CadastroSPA.Core/CadastroSPA.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper >= 11.0.1"
+      "AutoMapper >= 11.0.1",
+      "CadastroSPA.Cadastro.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -142,12 +176,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj": {
+              "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

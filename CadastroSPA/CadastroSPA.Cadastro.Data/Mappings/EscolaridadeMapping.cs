@@ -19,10 +19,10 @@ namespace CadastroSPA.Cadastro.Data.Mappings
                .IsRequired()
                .HasColumnType("varchar(250)");
 
-            // 1 : N => Escolaridade : Alunos
-            builder.HasMany(c => c.Alunos)
+            builder
+                .HasOne(p => p.Alunos)
                 .WithOne(p => p.Escolaridade)
-                .HasForeignKey(p => p.IdEscolaridade);
+                .HasForeignKey<Alunos>(p => p.IdEscolaridade);
 
             builder.ToTable("Escolaridade");
 

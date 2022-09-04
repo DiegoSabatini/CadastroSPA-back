@@ -1,14 +1,16 @@
-﻿namespace CadastroSPA.Cadastro.API.Configuration
+﻿using CadastroSPA.Cadastro.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace CadastroSPA.Cadastro.API.Configuration
 {
     public static class ApiConfig
     {
-        public static IServiceCollection AddApiConfiguration(this IServiceCollection services)
+        public static IServiceCollection AddApiConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-
-
-            services.AddControllers();
-
+           
             return services;
+
         }
 
         public static IApplicationBuilder UseApiConfiguration(this IApplicationBuilder app, IWebHostEnvironment env)
@@ -22,6 +24,10 @@
 
             app.UseRouting();
 
+            app.UseCors();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

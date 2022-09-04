@@ -1,4 +1,4 @@
-﻿using CadastroSPA.Cadastro.Data.Context;
+﻿using CadastroSPA.Cadastro.Data;
 using CadastroSPA.Cadastro.Domain.Models;
 using CadastroSPA.Cadastro.Domain.Repository;
 using CadastroSPA.Core.Data;
@@ -22,14 +22,16 @@ namespace CadastroSPA.Cadastro.Data.Repository
 
         public IUnitOfWork UnitOfWork => _context;
 
-        public void Adicionar(HistoricoEscolar historicoEscolar)
+        public async Task<bool> Adicionar(HistoricoEscolar historicoEscolar)
         {
             _context.HistoricoEscolar.Add(historicoEscolar);
+            await _context.Commit();
         }
 
-        public void Atualizar(HistoricoEscolar historicoEscolar)
+        public async Task<bool> Atualizar(HistoricoEscolar historicoEscolar)
         {
             _context.HistoricoEscolar.Update(historicoEscolar);
+            await _context.Commit();
         }
 
         public void Dispose()

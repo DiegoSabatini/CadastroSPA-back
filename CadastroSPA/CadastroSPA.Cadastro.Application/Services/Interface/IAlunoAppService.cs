@@ -10,7 +10,7 @@ namespace CadastroSPA.Cadastro.Application.Services.Interface
     public interface IAlunoAppService : IDisposable
     {
         Task<IEnumerable<AlunoViewModel>> ObterTodos();
-        void Adicionar(AlunoViewModel produto);
-        void Atualizar(AlunoViewModel produto);
+        Task<bool> Adicionar(AlunoViewModel produto);
+        Task<bool> Atualizar(AlunoViewModel produto);
     }
 }

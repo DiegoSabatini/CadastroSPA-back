@@ -1,5 +1,15 @@
-﻿using CadastroSPA.Cadastro.API.Configuration;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using CadastroSPA.Cadastro.API.Configuration;
+using CadastroSPA.Cadastro.API.Extensions;
 using CadastroSPA.Cadastro.Application.AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Text;
+using CadastroSPA.Cadastro.Data;
 
 namespace CadastroSPA.Cadastro.API
 {
@@ -19,8 +29,6 @@ namespace CadastroSPA.Cadastro.API
                 .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
-
-
             if (hostEnvironment.IsDevelopment())
             {
                 builder.AddUserSecrets<Startup>();
@@ -31,6 +39,11 @@ namespace CadastroSPA.Cadastro.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+
+            services.AddDbContext<CadastroContext>(options =>
+             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
             var origin = Configuration.GetValue<string>("AppSettings:Origin").Split(",");
             services.AddCors(options =>
@@ -45,18 +58,50 @@ namespace CadastroSPA.Cadastro.API
 
             });
 
-            services.AddApiConfiguration();
+            var appSettingsSection = Configuration.GetSection("AppSettings");
+            services.Configure<AppSettings>(appSettingsSection);
+
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
+
+            var appSettings = appSettingsSection.Get<AppSettings>();
+            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = true;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = appSettings.ValidoEm,
+                    ValidIssuer = appSettings.Emissor
+                };
+            });
+
 
             services.AddSwaggerConfiguration();
 
-            services.AddAutoMapper(typeof(DomainToViewModelMappingProfile), typeof(ViewModelToDomainMappingProfile));
+           // services.AddAutoMapper(typeof(DomainToViewModelMappingProfile), typeof(ViewModelToDomainMappingProfile));
+
+            services.AddSwaggerConfiguration();
+            services.ConfigureServices();
+            services.ConfigureRepositories();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseCors();
+            app.UseMiddleware<ExceptionMiddleware>();
+            app.UseMvcConfiguration();
             app.UseSwaggerConfiguration();
-
             app.UseApiConfiguration(env);
         }
 

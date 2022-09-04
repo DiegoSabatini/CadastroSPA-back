@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastro", "Cadastro", "{E9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSPA.Identidade.API", "CadastroSPA.Identidade.API\CadastroSPA.Identidade.API.csproj", "{A1FBCFBF-317A-4F12-9334-FCB5B8BCA374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSPA.Cadastro.API", "CadastroSPA.Cadastro.API\CadastroSPA.Cadastro.API.csproj", "{8FB0E160-4566-42F8-A115-0E7D3D0E803B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSPA.Cadastro.API", "CadastroSPA.Cadastro.API\CadastroSPA.Cadastro.API.csproj", "{8FB0E160-4566-42F8-A115-0E7D3D0E803B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D} = {013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}
 		{4C20AF43-BF3C-4638-A551-8139766688C0} = {4C20AF43-BF3C-4638-A551-8139766688C0}
@@ -31,27 +31,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{7F2264E6-4C04-4AE3-A4F0-B0066A0905B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSPA.Cadastro.Application", "CadastroSPA.Cadastro.Application\CadastroSPA.Cadastro.Application.csproj", "{4C20AF43-BF3C-4638-A551-8139766688C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSPA.Cadastro.Application", "CadastroSPA.Cadastro.Application\CadastroSPA.Cadastro.Application.csproj", "{4C20AF43-BF3C-4638-A551-8139766688C0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D} = {013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}
 		{91FB377A-3FC1-4087-B7AF-ECCF4973A81A} = {91FB377A-3FC1-4087-B7AF-ECCF4973A81A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSPA.Cadastro.Domain", "CadastroSPA.Cadastro.Domain\CadastroSPA.Cadastro.Domain.csproj", "{91FB377A-3FC1-4087-B7AF-ECCF4973A81A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSPA.Cadastro.Domain", "CadastroSPA.Cadastro.Domain\CadastroSPA.Cadastro.Domain.csproj", "{91FB377A-3FC1-4087-B7AF-ECCF4973A81A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{17D4F6AF-14C9-470E-A95B-01B940572E23} = {17D4F6AF-14C9-470E-A95B-01B940572E23}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSPA.Cadastro.Data", "CadastroSPA.Cadastro.Data\CadastroSPA.Cadastro.Data.csproj", "{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroSPA.Cadastro.Data", "CadastroSPA.Cadastro.Data\CadastroSPA.Cadastro.Data.csproj", "{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}"
 	ProjectSection(ProjectDependencies) = postProject
-		{91FB377A-3FC1-4087-B7AF-ECCF4973A81A} = {91FB377A-3FC1-4087-B7AF-ECCF4973A81A}
-		{17D4F6AF-14C9-470E-A95B-01B940572E23} = {17D4F6AF-14C9-470E-A95B-01B940572E23}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroSPA.Cadastro.Infra.CrossCutting.IoC", "CadastroSPA.Cadastro.Infra.CrossCutting.IoC\CadastroSPA.Cadastro.Infra.CrossCutting.IoC.csproj", "{78EE0151-3809-4CA6-94C5-466DD03F4CD7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D} = {013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}
-		{4C20AF43-BF3C-4638-A551-8139766688C0} = {4C20AF43-BF3C-4638-A551-8139766688C0}
 		{91FB377A-3FC1-4087-B7AF-ECCF4973A81A} = {91FB377A-3FC1-4087-B7AF-ECCF4973A81A}
 		{17D4F6AF-14C9-470E-A95B-01B940572E23} = {17D4F6AF-14C9-470E-A95B-01B940572E23}
 	EndProjectSection
@@ -86,10 +78,6 @@ Global
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{78EE0151-3809-4CA6-94C5-466DD03F4CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78EE0151-3809-4CA6-94C5-466DD03F4CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78EE0151-3809-4CA6-94C5-466DD03F4CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78EE0151-3809-4CA6-94C5-466DD03F4CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,7 +95,6 @@ Global
 		{4C20AF43-BF3C-4638-A551-8139766688C0} = {648D3E36-B80B-4F56-976D-16B2B6AAEF92}
 		{91FB377A-3FC1-4087-B7AF-ECCF4973A81A} = {1E211352-2917-4570-859E-2C01006D3C36}
 		{013CAF0F-DF4B-4CD1-9A34-5A50A74E677D} = {7F2264E6-4C04-4AE3-A4F0-B0066A0905B4}
-		{78EE0151-3809-4CA6-94C5-466DD03F4CD7} = {7F2264E6-4C04-4AE3-A4F0-B0066A0905B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {185DD625-7C6E-48D1-80A6-00EBC64FE066}
