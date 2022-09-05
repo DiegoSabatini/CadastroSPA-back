@@ -68,3 +68,9 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\ref\CadastroSPA.Identidade.API.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.pdb
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.genruntimeconfig.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Cadastro.Domain.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Core.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Cadastro.Domain.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Core.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Cadastro.Data.dll
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\bin\Debug\net6.0\CadastroSPA.Cadastro.Data.pdb

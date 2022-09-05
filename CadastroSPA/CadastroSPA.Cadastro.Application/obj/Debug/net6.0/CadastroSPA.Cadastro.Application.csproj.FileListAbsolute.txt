@@ -14,3 +14,4 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.A
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\ref\CadastroSPA.Cadastro.Application.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.pdb
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.Application\obj\Debug\net6.0\CadastroSPA.Cadastro.Application.csproj.AssemblyReference.cache

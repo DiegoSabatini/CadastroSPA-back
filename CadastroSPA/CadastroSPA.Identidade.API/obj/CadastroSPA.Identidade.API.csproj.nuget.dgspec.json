@@ -4,14 +4,166 @@
     "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj": {}
   },
   "projects": {
-    "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj": {
+    "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\CadastroSPA.Cadastro.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj",
-        "projectName": "CadastroSPA.Identidade.API",
-        "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj",
+        "projectUniqueName": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\CadastroSPA.Cadastro.Data.csproj",
+        "projectName": "CadastroSPA.Cadastro.Data",
+        "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\CadastroSPA.Cadastro.Data.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\obj\\",
+        "outputPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj",
+        "projectName": "CadastroSPA.Cadastro.Domain",
+        "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\CadastroSPA.Core.csproj": {
+                "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\CadastroSPA.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\CadastroSPA.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\CadastroSPA.Core.csproj",
+        "projectName": "CadastroSPA.Core",
+        "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\CadastroSPA.Core.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,39 +197,113 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.7, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj",
+        "projectName": "CadastroSPA.Identidade.API",
+        "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\CadastroSPA.Identidade.API.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Identidade.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\CadastroSPA.Cadastro.Data.csproj": {
+                "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Data\\CadastroSPA.Cadastro.Data.csproj"
+              },
+              "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj": {
+                "projectPath": "C:\\Diego\\Projetos\\teste\\back\\CadastroSPA-back\\CadastroSPA\\CadastroSPA.Cadastro.Domain\\CadastroSPA.Cadastro.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

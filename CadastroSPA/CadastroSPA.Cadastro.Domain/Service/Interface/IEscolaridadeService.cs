@@ -10,5 +10,7 @@ namespace CadastroSPA.Cadastro.Domain.Service.Interface
     public interface IEscolaridadeService : IDisposable
     {
         Task<IEnumerable<Escolaridade>> ObterTodos();
+
+        void Adicionar(Escolaridade escolaridade);
     }
 }

@@ -8,9 +8,9 @@ namespace CadastroSPA.Cadastro.API.Configuration
         {
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v3", new OpenApiInfo()
+                c.SwaggerDoc("v2", new OpenApiInfo()
                 {
-                    Version = "v3",
+                    Version = "v2",
                     Title = "CadastroSPA Aluno Teste Técnico",
                     Description = "API Cadastro Swagger"
                 });
@@ -48,7 +48,7 @@ namespace CadastroSPA.Cadastro.API.Configuration
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v3/swagger.json", "v3");
+                c.SwaggerEndpoint("/swagger/v2/swagger.json", "v2");
             });
             return app;
         }

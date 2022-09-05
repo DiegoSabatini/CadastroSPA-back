@@ -1,4 +1,6 @@
-﻿using CadastroSPA.Identidade.API.Configuration;
+﻿using CadastroSPA.Cadastro.Data;
+using CadastroSPA.Identidade.API.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace CadastroSPA.Identidade.API
 {
@@ -26,6 +28,14 @@ namespace CadastroSPA.Identidade.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+
+            services.AddDbContext<CadastroContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+
             services.AddIdentityConfiguration(Configuration);
 
             var origin = Configuration.GetValue<string>("AppSettings:Origin").Split(",");
@@ -42,8 +52,9 @@ namespace CadastroSPA.Identidade.API
             });
 
             services.AddApiConfiguration();
-
+            
             services.AddSwaggerConfiguration();
+            services.ResolveDependencies();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

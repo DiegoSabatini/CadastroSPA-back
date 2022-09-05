@@ -71,3 +71,4 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.A
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.API\obj\Debug\net6.0\ref\CadastroSPA.Cadastro.API.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.API\obj\Debug\net6.0\CadastroSPA.Cadastro.API.pdb
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.API\obj\Debug\net6.0\CadastroSPA.Cadastro.API.genruntimeconfig.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Cadastro.API\obj\Debug\net6.0\CadastroSPA.Cadastro.API.MvcApplicationPartsAssemblyInfo.cs

@@ -3,7 +3,6 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\bin\D
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\bin\Debug\net6.0\CadastroSPA.Core.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\bin\Debug\net6.0\ref\CadastroSPA.Core.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\bin\Debug\net6.0\CadastroSPA.Core.pdb
-C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.csproj.AssemblyReference.cache
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.AssemblyInfoInputs.cache
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.AssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\D
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\ref\CadastroSPA.Core.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.pdb
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.genruntimeconfig.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.csproj.AssemblyReference.cache

@@ -1,11 +1,11 @@
-﻿namespace CadastroSPA.Identidade.API.Configuration
+﻿using CadastroSPA.Identidade.API.Configuration;
+
+namespace CadastroSPA.Identidade.API.Configuration
 {
     public static class ApiConfig
     {
         public static IServiceCollection AddApiConfiguration(this IServiceCollection services)
         {
-            services.AddControllers();
-
             return services;
         }
 

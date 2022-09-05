@@ -11,6 +11,7 @@ namespace CadastroSPA.Cadastro.Domain.Repository
     public interface IAlunoRepository : IRepository<Alunos>
     {
         Task<IEnumerable<Alunos>> ObterTodos();
+        Task<Alunos> ObterPorId(Guid id);
         void Adicionar(Alunos aluno);
         void Atualizar(Alunos aluno);
 

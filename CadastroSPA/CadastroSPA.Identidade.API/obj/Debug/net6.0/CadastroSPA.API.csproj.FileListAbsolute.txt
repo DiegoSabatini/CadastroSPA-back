@@ -1,0 +1,7 @@
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.csproj.AssemblyReference.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.AssemblyInfoInputs.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.AssemblyInfo.cs
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.csproj.CoreCompileInputs.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.API.MvcApplicationPartsAssemblyInfo.cache

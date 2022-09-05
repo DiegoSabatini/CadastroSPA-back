@@ -92,7 +92,7 @@ namespace CadastroSPA.Cadastro.API
 
            // services.AddAutoMapper(typeof(DomainToViewModelMappingProfile), typeof(ViewModelToDomainMappingProfile));
 
-            services.AddSwaggerConfiguration();
+           // services.AddSwaggerConfiguration();
             services.ConfigureServices();
             services.ConfigureRepositories();
         }
@@ -100,7 +100,7 @@ namespace CadastroSPA.Cadastro.API
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseMiddleware<ExceptionMiddleware>();
-            app.UseSwaggerConfiguration();
+           // app.UseSwaggerConfiguration();
             app.UseApiConfiguration(env);
         }
 

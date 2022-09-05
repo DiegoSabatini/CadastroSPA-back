@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace CadastroSPA.Cadastro.API.Controllers
 {
     [Route("api/[controller]")]
-    [Produces("application/json")]
     [ApiController]
+    [AllowAnonymous]
     public abstract class ApiController : ControllerBase
     {
         protected ICollection<string> Erros = new List<string>();

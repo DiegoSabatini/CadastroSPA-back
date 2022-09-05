@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CadastroSPA.Cadastro.Domain.Models;
-using CadastroSPA.Cadastro.Data.Mappings;
 
 namespace CadastroSPA.Cadastro.Data
 {

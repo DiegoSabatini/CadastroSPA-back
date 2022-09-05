@@ -1,19 +1,27 @@
 ﻿using CadastroSPA.Core.DomainObjects;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CadastroSPA.Cadastro.Domain.Models
 {
+    [Table("HistoricoEscolar")]
     public class HistoricoEscolar : Entity
     {
-        public string Nome { get;  set; }
-        public string Formato { get;  set; }
-        public Alunos Alunos { get; set; }
+        [Column("Nome")]
+        public string Nome { get; private set; }
 
-        protected HistoricoEscolar() { }
+        [Column("Formato")]
+        public string Formato { get;  private set; }
+       
+
+        public HistoricoEscolar(string nome, string formato) {
+            Nome = nome;
+            Formato = formato;
+        }
 
     }
 }
