@@ -12,14 +12,12 @@ namespace CadastroSPA.Identidade.API.Configuration
         {
             services.AddScoped<CadastroContext>();
 
-            services.AddTransient<IAlunoService, AlunoService>();
-            services.AddTransient<IEscolaridadeService, EscolaridadeService>();
-            services.AddTransient<IHistoricoEscolaService, HistoricoEscolarService>();
+            services.AddScoped<IAlunoService, AlunoService>();
+            services.AddScoped<IEscolaridadeService, EscolaridadeService>();
 
 
             services.AddTransient<IAlunoRepository, AlunoRepository>();
             services.AddTransient<IEscolaridadeRepository, EscolaridadeRepository>();
-            services.AddTransient<IHistoricoEscolarRepository, HistoricoEscolarRepository>();
 
 
 

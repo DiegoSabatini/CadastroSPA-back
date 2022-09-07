@@ -28,5 +28,10 @@ namespace CadastroSPA.Cadastro.Domain.Service
         {
             _escolaridadeRepository.Dispose();
         }
+
+        public void Adicionar(Escolaridade escolaridade)
+        {
+            _escolaridadeRepository.Adicionar(escolaridade);
+        }
     }
 }

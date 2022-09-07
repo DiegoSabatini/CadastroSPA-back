@@ -30,7 +30,7 @@ namespace CadastroSPA.Identidade.API.Controllers
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            await _escolaridadeRepository.Adicionar(new Escolaridade(escolaridade.Descricao));
+            _escolaridadeService.Adicionar(new Escolaridade(escolaridade.Descricao));
 
 
             return CustomResponse();

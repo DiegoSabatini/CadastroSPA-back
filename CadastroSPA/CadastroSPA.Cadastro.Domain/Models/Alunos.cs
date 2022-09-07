@@ -26,14 +26,15 @@ namespace CadastroSPA.Cadastro.Domain.Models
         [Column("IdEscolaridade")]
         public Guid IdEscolaridade { get;  set; }
 
-        [Column("IdHistoricoEscolar")]
-        public Guid IdHistoricoEscolar { get; set; }
 
         [ForeignKey("IdEscolaridade")]
         public Escolaridade Escolaridade { get;  private set;}
 
-        [ForeignKey("IdHistoricoEscolar")]
-        public HistoricoEscolar HistoricoEscolar { get;  set; }
+
+        /// <summary>
+        /// EF constructor
+        /// </summary>
+        private Alunos() { }
 
         public Alunos(string nome, string sobreNome, string email, DateTime dataNascimento, Guid idEscolaridade) {
             Nome = nome;

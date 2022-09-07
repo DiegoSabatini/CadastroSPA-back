@@ -36,5 +36,10 @@ namespace CadastroSPA.Cadastro.Domain.Service
         {
             _alunoRepository.Dispose();
         }
+
+        public async Task<Alunos> ObterPorId(Guid id)
+        {
+            return await _alunoRepository.ObterPorId(id);
+        }
     }
 }

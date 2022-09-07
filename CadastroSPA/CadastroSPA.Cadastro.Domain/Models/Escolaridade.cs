@@ -14,7 +14,15 @@ namespace CadastroSPA.Cadastro.Domain.Models
         [Column("Descricao")]
         public string Descricao { get; private set; }
 
-        public Alunos Alunos { get; set; }
+      
+
+        /// <summary>
+        /// EF constructor
+        /// </summary>
+        /// 
+        private Escolaridade(){  }
+
+
         public Escolaridade(string descricao)
         {
             Descricao = descricao;

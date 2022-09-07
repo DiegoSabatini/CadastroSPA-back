@@ -17,7 +17,6 @@ namespace CadastroSPA.Cadastro.Data
             : base(options) { }
 
         public DbSet<Alunos> Alunos { get; set; }
-        public DbSet<HistoricoEscolar> HistoricoEscolar { get; set; }
         public DbSet<Escolaridade> Escolaridade { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
