@@ -35,8 +35,16 @@ namespace CadastroSPA.Cadastro.Data.Repository
 
         public async Task<bool> Adicionar(Escolaridade escolaridade)
         {
-            _context.Escolaridade.Add(escolaridade);
-            return await _context.Commit();
+            try
+            {
+                _context.Escolaridade.Add(escolaridade);
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch (Exception ex)
+            {
+                var v = ex;
+                return false;
+            }
         }
     }
 }

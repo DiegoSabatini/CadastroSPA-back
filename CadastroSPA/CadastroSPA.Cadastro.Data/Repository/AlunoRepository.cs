@@ -23,16 +23,16 @@ namespace CadastroSPA.Cadastro.Data.Repository
 
         public IUnitOfWork UnitOfWork => _context;
 
-        public void Adicionar(Alunos aluno)
+        public async Task Adicionar(Alunos aluno)
         {
             _context.Alunos.Add(aluno);
-            _context.Commit();
+            await _context.Commit();
         }
 
-        public void Atualizar(Alunos aluno)
+        public async Task Atualizar(Alunos aluno)
         {
             _context.Alunos.Update(aluno);
-            _context.Commit();
+            await _context.Commit();
         }
 
         public async Task<IEnumerable<Alunos>> ObterTodos()

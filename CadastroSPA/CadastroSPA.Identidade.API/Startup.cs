@@ -1,5 +1,6 @@
 ﻿using CadastroSPA.Cadastro.Data;
 using CadastroSPA.Identidade.API.Configuration;
+using CadastroSPA.Identidade.API.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace CadastroSPA.Identidade.API
@@ -28,31 +29,8 @@ namespace CadastroSPA.Identidade.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
-            services.AddDbContext<CadastroContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
-            });
-
-
+            services.AddApiConfiguration(Configuration);
             services.AddIdentityConfiguration(Configuration);
-
-            var origin = Configuration.GetValue<string>("AppSettings:Origin").Split(",");
-            services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(
-                                          builder =>
-                                          {
-                                              builder.WithOrigins(origin)
-                                              .AllowAnyHeader()
-                                              .AllowAnyMethod();
-                                          });
-
-            });
-
-            services.AddApiConfiguration();
-            
             services.AddSwaggerConfiguration();
             services.ResolveDependencies();
         }
@@ -61,6 +39,8 @@ namespace CadastroSPA.Identidade.API
         {
             app.UseCors();
             app.UseSwaggerConfiguration();
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseApiConfiguration(env);
         }

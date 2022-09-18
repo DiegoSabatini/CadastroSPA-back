@@ -48,7 +48,9 @@ namespace CadastroSPA.Identidade.API.Controllers
             _alunoRepository.Atualizar(alunoModel);
 
             return CustomResponse(aluno);
+
         }
+    
 
 
         private static long ToUnixEpochDate(DateTime date)

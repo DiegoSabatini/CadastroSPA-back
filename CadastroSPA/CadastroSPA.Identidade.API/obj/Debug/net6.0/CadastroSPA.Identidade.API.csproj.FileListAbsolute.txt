@@ -58,7 +58,6 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.AssemblyInfoInputs.cache
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.AssemblyInfo.cs
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.csproj.CoreCompileInputs.cache
-C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\CadastroSPA.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Identidade.API\obj\Debug\net6.0\staticwebassets.development.json

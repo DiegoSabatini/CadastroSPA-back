@@ -1,0 +1,255 @@
+﻿++Solução 'CadastroSPA' ‎(4 de 4 projetos)
+i:{00000000-0000-0000-0000-000000000000}:CadastroSPA.sln
+++Services
+i:{00000000-0000-0000-0000-000000000000}:Services
+++Identidade
+i:{0594e810-e289-4a3f-8e6c-9a070b08276c}:Identidade
+++CadastroSPA.Identidade.API
+i:{3486892d-00d4-4230-98bb-5873f8bbd3be}:CadastroSPA.Identidade.API
+++Connected Services 
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>624
+++Dependências
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>623
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:>451
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>450
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:>449
+++Properties
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\properties\
+++Configuration
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\configuration\
+++Controllers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\controllers\
+++AlunoController.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\controllers\alunocontroller.cs
+++ApiController.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\controllers\apicontroller.cs
+++EscolaridadeController.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\controllers\escolaridadecontroller.cs
+++IdentidadeController.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\controllers\identidadecontroller.cs
+++Data
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\data\
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\data\
+++Extensions
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\extensions\
+++Migrations
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\migrations\
+++Models
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\models\
+++appsettings.json
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\appsettings.json
+++Program.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\program.cs
+++Startup.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\startup.cs
+++Nenhuma dependência de serviço descoberta
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>625
+++Analisadores
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:analisadores
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:analisadores
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:analisadores
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:analisadores
+++Estruturas
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:estruturas
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:estruturas
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:estruturas
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:estruturas
+++Pacotes
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:pacotes
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:pacotes
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:pacotes
+++Projetos
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:projetos
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:projetos
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:projetos
+++launchSettings.json
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\properties\launchsettings.json
+++ApiConfig.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\configuration\apiconfig.cs
+++DependencyInjectionConfig.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\configuration\dependencyinjectionconfig.cs
+++IdentityConfig.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\configuration\identityconfig.cs
+++SwaggerConfig.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\configuration\swaggerconfig.cs
+++ApplicationDbContext.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\data\applicationdbcontext.cs
+++AppSettings.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\extensions\appsettings.cs
+++IdentityMensagensPortugues.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\extensions\identitymensagensportugues.cs
+++20220729210238_Initial.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\20220729210238_initial.cs
+++20220903015318_InitialCadastro.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\20220903015318_initialcadastro.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\applicationdbcontextmodelsnapshot.cs
+++Alunos
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\alunos\
+++Escolaridade
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\escolaridade\
+++HistoricoEscolar
+++UsuarioClaim.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\usuarioclaim.cs
+++UsuarioLogin.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\usuariologin.cs
+++UsuarioRegistro.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\usuarioregistro.cs
+++UsuarioRespostaLogin.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\usuariorespostalogin.cs
+++UsuarioToken.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\usuariotoken.cs
+++appsettings.Development.json
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\users\usuario\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\users\usuario\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\users\usuario\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\users\usuario\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\users\usuario\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\microsoft.netcore.app
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\microsoft.netcore.app
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\microsoft.netcore.app
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>676
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>673
+++Microsoft.AspNetCore.Identity.UI (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>678
+++Microsoft.EntityFrameworkCore (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>670
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>632
+++Microsoft.EntityFrameworkCore.Abstractions (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>675
+++Microsoft.EntityFrameworkCore.Relational (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>674
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>635
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>671
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>633
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>677
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>636
+++Swashbuckle.AspNetCore (6.4.0)
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:>672
+++CadastroSPA.Cadastro.Data
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\bin\debug\net6.0\cadastrospa.cadastro.data.dll
+i:{3486892d-00d4-4230-98bb-5873f8bbd3be}:CadastroSPA.Cadastro.Data
+++CadastroSPA.Cadastro.Domain
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\bin\debug\net6.0\cadastrospa.cadastro.domain.dll
+i:{3486892d-00d4-4230-98bb-5873f8bbd3be}:CadastroSPA.Cadastro.Domain
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\cadastrospa.cadastro.domain.csproj
+++20220729210238_Initial.Designer.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\20220729210238_initial.designer.cs
+++20220903015318_InitialCadastro.Designer.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\migrations\20220903015318_initialcadastro.designer.cs
+++AlunosDto.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\alunos\alunosdto.cs
+++EscolaridadeDto.cs
+i:{a1fbcfbf-317a-4f12-9334-fcb5b8bca374}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.identidade.api\models\escolaridade\escolaridadedto.cs
+++HistoricoEscolaDto.cs
+++Alunos.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\models\alunos.cs
+++Escolaridade.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\models\escolaridade.cs
+++Repository
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\repository\
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\repository\
+++Service
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\
+++IAlunoRepository.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\repository\ialunorepository.cs
+++IEscolaridadeRepository.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\repository\iescolaridaderepository.cs
+++IHistoricoEscolarRepository.cs
+++Interface
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\interface\
+++AlunoService.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\alunoservice.cs
+++EscolaridadeService.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\escolaridadeservice.cs
+++HistoricoEscolarService.cs
+++CadastroSPA.Core
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\cadastrospa.core.csproj
+i:{74b8eba2-a731-4f0a-bafa-08f86bc4674c}:CadastroSPA.Core
+++IAlunoService.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\interface\ialunoservice.cs
+++IEscolaridadeService.cs
+i:{91fb377a-3fc1-4087-b7af-eccf4973a81a}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.domain\service\interface\iescolaridadeservice.cs
+++IHistoricoEscolaService.cs
+++20220903022137_InitialCadastro.cs
+++CadastroContextModelSnapshot.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\migrations\cadastrocontextmodelsnapshot.cs
+++AlunoRepository.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\repository\alunorepository.cs
+++EscolaridadeRepository.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\repository\escolaridaderepository.cs
+++HistoricoEscolarRepository.cs
+++CadastroContext.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\cadastrocontext.cs
+++20220903022137_InitialCadastro.Designer.cs
+++Microsoft.EntityFrameworkCore.Design (6.0.8)
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:>634
+++core
+i:{00000000-0000-0000-0000-000000000000}:core
+++DomainObjects
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\domainobjects\
+++IRepository.cs
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\data\irepository.cs
+++IUnitOfWork.cs
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\data\iunitofwork.cs
+++DomainException.cs
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\domainobjects\domainexception.cs
+++Entity.cs
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.core\domainobjects\entity.cs
+++Microsoft.EntityFrameworkCore.Tools (6.0.7)
+i:{17d4f6af-14c9-470e-a95b-01b940572e23}:>645
+++20220907212421_InitialCad.cs
+++20220907212421_InitialCad.Designer.cs
+++20220907212518_InitialCad.cs
+++20220907212518_InitialCad.Designer.cs
+++20220907212840_InitialCadr.cs
+++20220907212840_InitialCadr.Designer.cs
+++20220907213150_InitialCad.cs
+++20220907213150_InitialCad.Designer.cs
+++20220907213432_InitialCad.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\migrations\20220907213432_initialcad.cs
+++20220907213432_InitialCad.Designer.cs
+i:{013caf0f-df4b-4cd1-9a34-5a50a74e677d}:c:\diego\projetos\teste\back\cadastrospa-back\cadastrospa\cadastrospa.cadastro.data\migrations\20220907213432_initialcad.designer.cs

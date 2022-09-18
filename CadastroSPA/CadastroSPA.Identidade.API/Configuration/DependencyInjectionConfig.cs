@@ -10,7 +10,6 @@ namespace CadastroSPA.Identidade.API.Configuration
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
-            services.AddScoped<CadastroContext>();
 
             services.AddScoped<IAlunoService, AlunoService>();
             services.AddScoped<IEscolaridadeService, EscolaridadeService>();
@@ -19,9 +18,7 @@ namespace CadastroSPA.Identidade.API.Configuration
             services.AddTransient<IAlunoRepository, AlunoRepository>();
             services.AddTransient<IEscolaridadeRepository, EscolaridadeRepository>();
 
-
-
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<CadastroContext>();
 
             return services;
         }

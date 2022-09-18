@@ -11,3 +11,4 @@ C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\D
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\ref\CadastroSPA.Core.dll
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.pdb
 C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.genruntimeconfig.cache
+C:\Diego\Projetos\teste\back\CadastroSPA-back\CadastroSPA\CadastroSPA.Core\obj\Debug\net6.0\CadastroSPA.Core.csproj.AssemblyReference.cache

@@ -30,10 +30,16 @@ namespace CadastroSPA.Identidade.API.Controllers
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            _escolaridadeService.Adicionar(new Escolaridade(escolaridade.Descricao));
+            await _escolaridadeService.Adicionar(new Escolaridade(escolaridade.Descricao));
 
 
             return CustomResponse();
+        }
+
+        [HttpGet("listar-escolaridade")]
+        public async Task<ActionResult> Listar()
+        {
+            return CustomResponse(await _escolaridadeService.ObterTodos());
         }
 
 
