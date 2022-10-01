@@ -25,6 +25,7 @@ namespace CadastroSPA.Cadastro.Data.Repository
 
         public async Task Adicionar(Alunos aluno)
         {
+            aluno.IdEscolaridade = new Guid("5CD240E6-5AE3-4886-9ED0-61FC2D90ED2D");
             _context.Alunos.Add(aluno);
             await _context.Commit();
         }

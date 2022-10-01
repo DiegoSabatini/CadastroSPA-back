@@ -36,7 +36,8 @@ namespace CadastroSPA.Cadastro.Domain.Models
         /// </summary>
         private Alunos() { }
 
-        public Alunos(string nome, string sobreNome, string email, DateTime dataNascimento, Guid idEscolaridade) {
+        public Alunos(string nome, string sobreNome, string email, DateTime dataNascimento, Guid idEscolaridade, Guid id = new Guid()) {
+            Id = id;
             Nome = nome;
             Sobrenome = sobreNome;
             Email = email;

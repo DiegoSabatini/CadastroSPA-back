@@ -11,7 +11,7 @@ namespace CadastroSPA.Cadastro.Domain.Service.Interface
     {
         Task<IEnumerable<Alunos>> ObterTodos();
         Task<Alunos> ObterPorId(Guid id);
-        void Adicionar(Alunos aluno);
-        void Atualizar(Alunos aluno);
+        Task Adicionar(Alunos aluno);
+        Task Atualizar(Alunos aluno);
     }
 }

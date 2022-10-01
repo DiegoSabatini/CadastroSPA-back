@@ -29,7 +29,7 @@ namespace CadastroSPA.Identidade.API.Controllers
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            _alunoRepository.Adicionar(new Alunos(aluno.Nome, aluno.Sobrenome,aluno.Email, aluno.DataNascimento, aluno.IdEscolaridade));
+            await _alunoRepository.Adicionar(new Alunos(aluno.Nome, aluno.Sobrenome,aluno.Email, aluno.DataNascimento, aluno.IdEscolaridade));
 
             return CustomResponse(aluno);
         }

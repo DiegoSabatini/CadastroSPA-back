@@ -17,14 +17,14 @@ namespace CadastroSPA.Cadastro.Domain.Service
             _alunoRepository = alunoRepository;
         }
 
-        public void Adicionar(Alunos aluno)
+        public async Task Adicionar(Alunos aluno)
         {
-            _alunoRepository.Adicionar(aluno);
+            await _alunoRepository.Adicionar(aluno);
         }
 
-        public void Atualizar(Alunos aluno)
+        public async Task Atualizar(Alunos aluno)
         {
-            _alunoRepository.Atualizar(aluno);
+            await _alunoRepository.Atualizar(aluno);
         }
 
         public async Task<IEnumerable<Alunos>> ObterTodos()
